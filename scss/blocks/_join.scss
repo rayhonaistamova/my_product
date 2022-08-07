@@ -1,0 +1,51 @@
+.join__body{
+    background: $btn_color;
+    border-radius: 32px;
+    width: 968px;
+    height: 345px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+    @include important_text;
+}
+.join__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+    margin-left: 50px;
+}
+.join__btn{
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #02897A;
+    padding: 13px 33px;
+    margin-left: 55px;
+}
+
+
+@media screen and (max-width: 411px) {
+    .join__body{
+        flex-direction: column;
+        width: 370px;
+        height: 688px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .join__title{
+        margin-left: 0;
+        width: 328px;
+        margin-top: 20px;
+    }
+    .join__btn{
+        margin-left: 20px;
+    }
+    .join__img{
+        margin-top: 32px;
+    }
+}

@@ -1,0 +1,43 @@
+.collaborative {
+    padding-bottom: 150px
+}
+.collaborative__body {
+    @include important_text;
+}
+.collaborative__description {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-color;
+    margin-bottom: 10px;
+}
+.collaborative__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: $text-color;
+    margin-bottom: 25px;
+}
+.collaborative__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $text-color;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 411px) {
+    .collaborative__body{
+        flex-direction: column-reverse;
+    }
+    .collaborative__img{
+        width: 350px;
+        height: 290px;
+    }
+    .collaborative__left{
+        margin-left: 35px;
+    }
+
+}
